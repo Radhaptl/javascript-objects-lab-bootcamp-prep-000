@@ -12,8 +12,8 @@ function deleteFromObjectByKey(recipes, ingredients){
   return Object.assign({},delete recipes.ingredients)
 }
 
-function destructivelyDeleteFromObjectByKey (object, key)
-{ delete object.key
+function destructivelyDeleteFromObjectByKey (recipes, ingredients)
+{ delete recipes.ingredients
 return recipes
 }
 
